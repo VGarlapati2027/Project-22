@@ -24,6 +24,7 @@ function setup() {
   //create player base body
   var options = {
     isStatic: true
+    density= 1.2
     
   };
   playerBase = Bodies.rectangle(200,350,180,150,options);
